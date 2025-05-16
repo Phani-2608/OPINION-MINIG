@@ -1,12 +1,14 @@
 # OPINION-MINING
 
-Read Me 
-
+**Read Me 
+**
 Our system is a Sarcasm Detector which takes text input, gives the user ability to check if the sarcasm exists in the text. There are 3 models BAAI,MINILM,BERT. 
 
 Our project has 2 part the front end and the back end. The front end is done with anvil which is a online web building and hosting website that runs on python. It was build mostly on the website so there is no exact front end for say in code, there some code that connect backend with the front end.But it had to be on the website to run it: 
 
-The code is: 
+**The code is: 
+**
+
 from ._anvil_designer import Form1Template 
 from anvil import * 
 import anvil.server 
@@ -83,13 +85,11 @@ Here are link to Google collab: Check Github
 We have 3 models available, which can be run independently to check for sarcasm. Training and running each model take around 6 min to 1 hors 30 min  to run. We recommend using T4 GPU. You can pick the model you want to run choose a gpu and select run all, you will get a message after the second step asking to restart the session, just close it and the rest should run without hiccups. One you see the last cell running of the collabs go to the frontend website, put in a sarcasm comment and it should detect it. 
 You can run all 3 Collab simultaneously and click all the buttons, it will work as well. 
 
-
-
-
-
-Running steps: 
-
+**Running steps: 
+**
 Open the google Collab 
+Download all  files form Integrated_code 
+Upload to google collab,
 Run all 3 of them, 
 Ignore the restart message, 
 Verify last cell is running, It a while loop that keeps Collab on so that we can communicate with anvil without connection lost. 
@@ -98,13 +98,15 @@ Then go the website(we had no choice with the link name it was auto generated)
 https://nutty-kind-enthusiasm.anvil.app/ 
 then put a sarcastic or non sarcastic text in the input area, and click on the model you want to run and you should see the result just below where you entered. 
   
- Known Bugs: 
-If it seems that no matter what you type you get the same result, switch to another cpu / gpu train it and you should be able to get valid result. 
+ ** Known Bugs: 
+**If it seems that no matter what you type you get the same result, switch to another cpu / gpu train it and you should be able to get valid result. 
+
+
 We focused more on BAAI and it is the most accurate almost the 3 model 
  
 
-#NOTE TO GRADER 
-If any reason the token expires or the website is not up or you need help with setting up, 
+**#NOTE TO GRADER 
+**If any reason the token expires or the website is not up or you need help with setting up, 
 Please email any of us, we are using free versions of website so they may have expired,  Krishnc1@umbc.edu, 
  
 
