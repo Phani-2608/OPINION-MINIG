@@ -107,7 +107,7 @@ We focused more on BAAI and it is the most accurate almost the 3 model
 
 **#NOTE TO GRADER 
 **If any reason the token expires or the website is not up or you need help with setting up, 
-Please email any of us, we are using free versions of website so they may have expired,  Krishnc1@umbc.edu, 
+Please email any of us, we are using free versions of website so they may have expired,Krishnc1@umbc.edu, p166@umbc.edu,w59@umbc.edu,sbhogi1@umbc.edu
  
 
 
